@@ -1,8 +1,5 @@
-<h1 align="center">Timur Mudarisov</h1>
-
 <p align="center">
-  <strong>Machine Learning Researcher · Transformers · LLMs · Quantitative ML</strong><br>
-  Doctoral Researcher at SnT, University of Luxembourg
+  <img src="assets/banner.svg" width="100%" alt="Timur Mudarisov. Machine learning researcher: Transformers, LLMs, quantitative ML. Doctoral researcher at SnT, University of Luxembourg."/>
 </p>
 
 <p align="center">
@@ -16,30 +13,47 @@ I study the mathematical and empirical structure of **Transformers and large lan
 
 ## Publications
 
-| Venue | Paper |
-|:--|:--|
-| ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-7b2d3b?style=flat-square) | [**Predictive Geometry of Hidden Trajectories in Transformers**](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers) · *accepted* |
-| ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-7b2d3b?style=flat-square) | **Limitations of Normalization in Attention Mechanism** |
-| ![ICNLSP 2025](https://img.shields.io/badge/ICNLSP-2025-2d5a4a?style=flat-square) | Scalable Text Vectorization with Hyperdimensional Computing Through Selective Word Encoding |
-| ![ACM ICAIF 2024](https://img.shields.io/badge/ACM_ICAIF-2024-8a6a12?style=flat-square) | Cross-Sector Market Regime Forecasting with LLM-Augmented News Analysis |
+<sub>Click a paper to see what it is about, with a figure from the paper.</sub>
 
-## Featured research
+<details>
+<summary><img src="https://img.shields.io/badge/NeurIPS-2026-7b2d3b?style=flat-square" alt="NeurIPS 2026" align="top"/>&nbsp; <b>Predictive Geometry of Hidden Trajectories in Transformers</b> · <i>accepted</i></summary>
 
-<table>
-<tr>
-<td>
+<img src="assets/papers/fig_2026_predictive_geometry.png" width="100%" alt="Predictive Geometry of Hidden Trajectories in Transformers"/>
+<sub><i>Figure 1 from the paper: a hidden-state trajectory with layerwise low-loss sets (top), the local pullback geometry around a low-loss point (bottom left), and prediction-null leaves with the observable quotient (bottom right).</i></sub>
 
-### [Predictive Geometry of Hidden Trajectories in Transformers](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers)
+A decoder-only transformer is trained only through its final next-token loss, yet that loss constrains every intermediate hidden state. Around trajectories where the model already predicts well, the local curvature of the loss-to-go is a pullback Fisher operator: it splits hidden space into a few output-sensitive directions and many almost prediction-null ones, and gives a tokenwise sensitivity score. Across 1B–9B LLMs this geometry predicts perturbation sensitivity, guides layerwise rank allocation and token pruning, and improves low-rank student distillation on top of reverse and skew KL. [Code](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers)
 
-<sub>NeurIPS 2026</sub>
+</details>
 
-Which directions in a Transformer's hidden states actually matter for its predictions? This work characterises prediction-relevant hidden-state geometry through Fisher-based sensitivity, and uses it for compression, pruning, and distillation.
+<details>
+<summary><img src="https://img.shields.io/badge/NeurIPS-2025-7b2d3b?style=flat-square" alt="NeurIPS 2025" align="top"/>&nbsp; <b>Limitations of Normalization in Attention Mechanism</b></summary>
 
-<a href="https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers"><img src="https://img.shields.io/badge/code-repository-1d4e6e?style=flat-square&logo=github" alt="Code"/></a>
+<img src="assets/papers/fig_2025_normalization.png" width="100%" alt="Limitations of Normalization in Attention Mechanism"/>
+<sub><i>Figure 1 from the paper: token embeddings on a circle are rescaled by their attention weights; only selected tokens that stay inside the ball around the context vector s remain distinguishable.</i></sub>
 
-</td>
-</tr>
-</table>
+Why softmax attention loses focus on long contexts. For any normaliser that does not depend on the context length, attention weights shrink like 1/L; the paper bounds the distance between selected and ignored tokens, shows that only about 80% of the selected tokens can be geometrically separated, and bounds the Jacobian, which grows as the temperature drops. Experiments on GPT-2 confirm all three effects. [arXiv](https://arxiv.org/abs/2508.17821)
+
+</details>
+
+<details>
+<summary><img src="https://img.shields.io/badge/ICNLSP-2025-2d5a4a?style=flat-square" alt="ICNLSP 2025" align="top"/>&nbsp; <b>Scalable Text Vectorization with Hyperdimensional Computing Through Selective Word Encoding</b></summary>
+
+<img src="assets/papers/fig_2025_hdc.png" width="100%" alt="Scalable Text Vectorization with Hyperdimensional Computing Through Selective Word Encoding"/>
+<sub><i>Figure 3 from the paper (top row): compression rate, Jensen–Shannon divergence and ROUGE-F1 on IMDB against the quantile p; theoretical estimators versus true values, with bounds shaded.</i></sub>
+
+Hyperdimensional computing encodes text as long ±1 vectors, but large vocabularies make it expensive. Compression HDC first keeps only the most informative words (TF-IDF or LDA) and then encodes. The paper derives estimators and bounds for the compression rate, Jensen–Shannon divergence and ROUGE, and a Chernoff-type bound for how well documents stay distinguishable; experiments on IMDB, AG News and arXiv match the theory.
+
+</details>
+
+<details>
+<summary><img src="https://img.shields.io/badge/ACM_ICAIF-2024-8a6a12?style=flat-square" alt="ACM ICAIF 2024" align="top"/>&nbsp; <b>Cross-Sector Market Regime Forecasting with LLM-Augmented News Analysis</b></summary>
+
+<img src="assets/papers/fig_2024_market_regimes.png" width="100%" alt="Cross-Sector Market Regime Forecasting with LLM-Augmented News Analysis"/>
+<sub><i>Figure 2 from the paper: S&P 500 cumulative return, 1990–2024, split into four return-based market regimes.</i></sub>
+
+Can financial news predict the next market regime? Regimes of the S&P 500 are labelled by return- and volatility-based partitions, and a model combining a time-series network with a chain of FinBERT models (news selection, market-mover scoring, regime probabilities) forecasts next month's regime. Adding news improves accuracy by up to 73% and weighted F1 by up to 110% over the time-series model alone. [DOI](https://doi.org/10.1145/3677052.3698642)
+
+</details>
 
 ## Education & academic path
 
@@ -47,7 +61,7 @@ My training started in **probability theory and mathematical statistics**, then 
 
 <table>
 <tr>
-<td width="80" align="center"><img src="assets/education/logo_unilu.png" width="64" alt="University of Luxembourg"/></td>
+<td width="80" align="center"><img src="assets/logos/logo_unilu.png" width="64" alt="University of Luxembourg"/></td>
 <td>
 <strong>University of Luxembourg — SnT</strong><br/>
 <sub>Doctoral Researcher / PhD · 2024–present · Luxembourg</sub><br/><br/>
@@ -55,7 +69,7 @@ My PhD studies Transformers as high-dimensional compositional operator systems, 
 </td>
 </tr>
 <tr>
-<td width="80" align="center"><img src="assets/education/logo_nes.png" width="56" alt="New Economic School"/><br/><br/><img src="assets/education/logo_ysda.png" width="56" alt="Yandex School of Data Analysis"/></td>
+<td width="80" align="center"><img src="assets/logos/logo_nes.png" width="56" alt="New Economic School"/><br/><br/><img src="assets/logos/logo_ysda.png" width="56" alt="Yandex School of Data Analysis"/></td>
 <td>
 <strong>New Economic School + Yandex School of Data Analysis</strong><br/>
 <sub>Economics & Data Science · 2020–2022 · Moscow</sub><br/><br/>
@@ -64,7 +78,7 @@ A joint program combining graduate-level economics with a rigorous data-science 
 </td>
 </tr>
 <tr>
-<td width="80" align="center"><img src="assets/education/logo_msu.png" width="64" alt="Moscow State University"/></td>
+<td width="80" align="center"><img src="assets/logos/logo_msu.png" width="64" alt="Moscow State University"/></td>
 <td>
 <strong>Lomonosov Moscow State University — Faculty of Mechanics and Mathematics</strong><br/>
 <sub>Specialist degree · Department of Probability Theory · 2016–2022 · Moscow</sub><br/><br/>
@@ -81,7 +95,7 @@ My academic supervisor was <a href="https://new.math.msu.su/department/probab/st
 <details>
 <summary><b>Analyzing the Length of a Success Series in Bernoulli Trials</b> · 2019 · <i>Excellent</i></summary>
 
-<img src="assets/research/2019_longest_runs.svg" width="100%" alt="Analyzing the Length of a Success Series in Bernoulli Trials"/>
+<img src="assets/figures/2019_longest_runs.svg" width="100%" alt="Analyzing the Length of a Success Series in Bernoulli Trials"/>
 
 How long is the longest streak of heads in n coin flips? The work derives exact and recursive formulas for its distribution, shows that it grows like log n with bounded spread, and checks the double-exponential approximation against simulations. [PDF](papers/2019_longest_runs_bernoulli.pdf)
 
@@ -90,7 +104,7 @@ How long is the longest streak of heads in n coin flips? The work derives exact 
 <details>
 <summary><b>Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials</b> · 2020 · <i>Excellent</i></summary>
 
-<img src="assets/research/2020_generating_function.svg" width="100%" alt="Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials"/>
+<img src="assets/figures/2020_generating_function.svg" width="100%" alt="Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials"/>
 
 The same problem through generating functions: conditioning on the last zero gives a linear recurrence, the recurrence gives a rational generating function, and its poles give an explicit formula F(n, k) = A rⁿ + Σ Bⱼ aⱼⁿ for the distribution of the longest run. [PDF](papers/2020_limiting_behavior_bernoulli_runs.pdf)
 
@@ -99,7 +113,7 @@ The same problem through generating functions: conditioning on the last zero giv
 <details>
 <summary><b>Estimating the Largest Common Fragment in RLE Sequences</b> · 2021 · <i>Good</i></summary>
 
-<img src="assets/research/2021_rle_common_fragment.svg" width="100%" alt="Estimating the Largest Common Fragment in RLE Sequences"/>
+<img src="assets/figures/2021_rle_common_fragment.svg" width="100%" alt="Estimating the Largest Common Fragment in RLE Sequences"/>
 
 Two random sequences are compressed with run-length encoding. How long is the longest block of runs they share? For processes with countable support and strong exponential mixing it grows like 2 log n / H₂, where H₂ is the order-2 Rényi entropy rate of the encoded process. [PDF](papers/2021_rle_common_fragment.pdf)
 
@@ -108,7 +122,7 @@ Two random sequences are compressed with run-length encoding. How long is the lo
 <details>
 <summary><b>Statistical Evaluation of Conditional Mutual Information by Neural Networks</b> · 2022, specialist thesis · <i>Excellent</i></summary>
 
-<img src="assets/research/2022_neural_cmi.svg" width="100%" alt="Statistical Evaluation of Conditional Mutual Information by Neural Networks"/>
+<img src="assets/figures/2022_neural_cmi.svg" width="100%" alt="Statistical Evaluation of Conditional Mutual Information by Neural Networks"/>
 
 Classifier-based neural estimators of conditional mutual information (LDR, DV, NWJ). The thesis proves their $L^2$-consistency and asymptotic unbiasedness, and shows in simulations that on heavy-tailed (Cauchy) data their error stops decreasing. [PDF](papers/2022_neural_cmi_estimators_thesis.pdf)
 
