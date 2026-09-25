@@ -76,25 +76,43 @@ My academic supervisor was <a href="https://new.math.msu.su/department/probab/st
 
 ### Selected undergraduate research at MSU
 
-<img src="assets/research/bernoulli_longest_run.svg" width="100%" alt="Longest runs in Bernoulli trials: distribution and logarithmic growth"/>
+<sub>Click a title to open the figure and a short summary.</sub>
 
-**Analyzing the Length of a Success Series in Bernoulli trials** · 2019 · **Excellent** · [PDF](papers/2019_longest_runs_bernoulli.pdf)  
-Distribution and asymptotic behaviour of the longest run in Bernoulli trials: exact and recursive formulas, the double-exponential approximation, and Python simulations.
+<details>
+<summary><b>Analyzing the Length of a Success Series in Bernoulli Trials</b> · 2019 · <i>Excellent</i></summary>
 
-<img src="assets/research/bernoulli_limit_behavior.svg" width="100%" alt="Generating-function poles and the dominant-pole approximation"/>
+<img src="assets/research/2019_longest_runs.svg" width="100%" alt="Analyzing the Length of a Success Series in Bernoulli Trials"/>
 
-**Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials** · 2020 · **Excellent** · [PDF](papers/2020_limiting_behavior_bernoulli_runs.pdf)  
-A generating-function approach to the same extreme-run problem: the roots of the denominator give an explicit form of the distribution function and its limiting behaviour.
+How long is the longest streak of heads in n coin flips? The work derives exact and recursive formulas for its distribution, shows that it grows like log n with bounded spread, and checks the double-exponential approximation against simulations. [PDF](papers/2019_longest_runs_bernoulli.pdf)
 
-<img src="assets/research/rle_common_substring.svg" width="100%" alt="Longest common substring after run-length encoding"/>
+</details>
 
-**Estimating the Largest Common Fragment in RLE Sequences** · 2021 · **Good** · [PDF](papers/2021_rle_common_fragment.pdf)  
-Asymptotics of the longest common substring after run-length encoding for processes with countable support, connecting the growth rate to the order-2 Rényi entropy under strong exponential mixing.
+<details>
+<summary><b>Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials</b> · 2020 · <i>Excellent</i></summary>
 
-<img src="assets/research/cmi_neural_estimators.svg" width="100%" alt="Neural estimators of conditional mutual information"/>
+<img src="assets/research/2020_generating_function.svg" width="100%" alt="Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials"/>
 
-**Statistical Evaluation of Conditional Mutual Information by Neural Networks** · Specialist thesis · 2022 · **Excellent** · [PDF](papers/2022_neural_cmi_estimators_thesis.pdf)  
-Classifier-based neural estimators of conditional mutual information: $L^2$-consistency, asymptotic unbiasedness, and stress tests on heavy-tailed distributions.
+The same problem through generating functions: conditioning on the last zero gives a linear recurrence, the recurrence gives a rational generating function, and its poles give an explicit formula F(n, k) = A rⁿ + Σ Bⱼ aⱼⁿ for the distribution of the longest run. [PDF](papers/2020_limiting_behavior_bernoulli_runs.pdf)
+
+</details>
+
+<details>
+<summary><b>Estimating the Largest Common Fragment in RLE Sequences</b> · 2021 · <i>Good</i></summary>
+
+<img src="assets/research/2021_rle_common_fragment.svg" width="100%" alt="Estimating the Largest Common Fragment in RLE Sequences"/>
+
+Two random sequences are compressed with run-length encoding. How long is the longest block of runs they share? For processes with countable support and strong exponential mixing it grows like 2 log n / H₂, where H₂ is the order-2 Rényi entropy rate of the encoded process. [PDF](papers/2021_rle_common_fragment.pdf)
+
+</details>
+
+<details>
+<summary><b>Statistical Evaluation of Conditional Mutual Information by Neural Networks</b> · 2022, specialist thesis · <i>Excellent</i></summary>
+
+<img src="assets/research/2022_neural_cmi.svg" width="100%" alt="Statistical Evaluation of Conditional Mutual Information by Neural Networks"/>
+
+Classifier-based neural estimators of conditional mutual information (LDR, DV, NWJ). The thesis proves their $L^2$-consistency and asymptotic unbiasedness, and shows in simulations that on heavy-tailed (Cauchy) data their error stops decreasing. [PDF](papers/2022_neural_cmi_estimators_thesis.pdf)
+
+</details>
 
 ### NES + YSDA capstone: reinforcement learning for market making
 
