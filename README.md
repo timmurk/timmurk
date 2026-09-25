@@ -9,7 +9,7 @@
   <a href="https://scholar.google.lu/citations?user=_oB9VgIAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-publications-1d4e6e?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
   <a href="https://www.linkedin.com/in/timur-mudarisov-a675a01b4/"><img src="https://img.shields.io/badge/LinkedIn-connect-1d4e6e?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://orcid.org/0009-0006-4152-2544"><img src="https://img.shields.io/badge/ORCID-0009--0006--4152--2544-1d4e6e?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"/></a>
-  <a href="mailto:timur.mudarisov@uni.lu"><img src="https://img.shields.io/badge/Email-timur.mudarisov%40uni.lu-1d4e6e?style=flat-square" alt="Email"/></a>
+  <a href="mailto:hardaphysic@gmail.com"><img src="https://img.shields.io/badge/Email-timur.mudarisov%40uni.lu-1d4e6e?style=flat-square" alt="Email"/></a>
   <img src="https://img.shields.io/badge/based_in-Luxembourg-5b6773?style=flat-square" alt="Based in Luxembourg"/>
 </p>
 
