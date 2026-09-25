@@ -47,7 +47,7 @@ My training started in **probability theory and mathematical statistics**, then 
 
 <table>
 <tr>
-<td width="72" align="center"><img src="assets/education/unilu.svg" width="54" alt="University of Luxembourg"/></td>
+<td width="80" align="center"><img src="assets/education/logo_unilu.png" width="64" alt="University of Luxembourg"/></td>
 <td>
 <strong>University of Luxembourg — SnT</strong><br/>
 <sub>Doctoral Researcher / PhD · 2024–present · Luxembourg</sub><br/><br/>
@@ -55,7 +55,7 @@ My PhD studies Transformers as high-dimensional compositional operator systems, 
 </td>
 </tr>
 <tr>
-<td width="72" align="center"><img src="assets/education/nes.svg" width="50" alt="New Economic School"/><br/><br/><img src="assets/education/ysda.svg" width="50" alt="Yandex School of Data Analysis"/></td>
+<td width="80" align="center"><img src="assets/education/logo_nes.png" width="56" alt="New Economic School"/><br/><br/><img src="assets/education/logo_ysda.png" width="56" alt="Yandex School of Data Analysis"/></td>
 <td>
 <strong>New Economic School + Yandex School of Data Analysis</strong><br/>
 <sub>Economics & Data Science · 2020–2022 · Moscow</sub><br/><br/>
@@ -64,7 +64,7 @@ A joint program combining graduate-level economics with a rigorous data-science 
 </td>
 </tr>
 <tr>
-<td width="72" align="center"><img src="assets/education/msu.svg" width="54" alt="Moscow State University"/></td>
+<td width="80" align="center"><img src="assets/education/logo_msu.png" width="64" alt="Moscow State University"/></td>
 <td>
 <strong>Lomonosov Moscow State University — Faculty of Mechanics and Mathematics</strong><br/>
 <sub>Specialist degree · Department of Probability Theory · 2016–2022 · Moscow</sub><br/><br/>
