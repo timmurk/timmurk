@@ -1,5 +1,8 @@
+<h1 align="center">Timur Mudarisov</h1>
+
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Timur Mudarisov. Machine learning researcher: Transformers, LLMs, quantitative ML. Doctoral researcher at SnT, University of Luxembourg."/>
+  <strong>Machine Learning Researcher · Transformers · LLMs · Quantitative ML</strong><br>
+  Doctoral Researcher at SnT, University of Luxembourg
 </p>
 
 <p align="center">
@@ -61,7 +64,7 @@ My training started in **probability theory and mathematical statistics**, then 
 
 <table>
 <tr>
-<td width="80" align="center"><img src="assets/logos/logo_unilu.png" width="64" alt="University of Luxembourg"/></td>
+<td width="80" align="center"><img src="assets/logos/unilu.png" width="64" alt="University of Luxembourg"/></td>
 <td>
 <strong>University of Luxembourg — SnT</strong><br/>
 <sub>Doctoral Researcher / PhD · 2024–present · Luxembourg</sub><br/><br/>
@@ -69,7 +72,7 @@ My PhD studies Transformers as high-dimensional compositional operator systems, 
 </td>
 </tr>
 <tr>
-<td width="80" align="center"><img src="assets/logos/logo_nes.png" width="56" alt="New Economic School"/><br/><br/><img src="assets/logos/logo_ysda.png" width="56" alt="Yandex School of Data Analysis"/></td>
+<td width="80" align="center"><img src="assets/logos/nes.png" width="56" alt="New Economic School"/><br/><br/><img src="assets/logos/ysda.png" width="56" alt="Yandex School of Data Analysis"/></td>
 <td>
 <strong>New Economic School + Yandex School of Data Analysis</strong><br/>
 <sub>Economics & Data Science · 2020–2022 · Moscow</sub><br/><br/>
@@ -78,7 +81,7 @@ A joint program combining graduate-level economics with a rigorous data-science 
 </td>
 </tr>
 <tr>
-<td width="80" align="center"><img src="assets/logos/logo_msu.png" width="64" alt="Moscow State University"/></td>
+<td width="80" align="center"><img src="assets/logos/msu.png" width="64" alt="Moscow State University"/></td>
 <td>
 <strong>Lomonosov Moscow State University — Faculty of Mechanics and Mathematics</strong><br/>
 <sub>Specialist degree · Department of Probability Theory · 2016–2022 · Moscow</sub><br/><br/>
@@ -95,7 +98,7 @@ My academic supervisor was <a href="https://new.math.msu.su/department/probab/st
 <details>
 <summary><b>Analyzing the Length of a Success Series in Bernoulli Trials</b> · 2019 · <i>Excellent</i></summary>
 
-<img src="assets/figures/2019_longest_runs.svg" width="100%" alt="Analyzing the Length of a Success Series in Bernoulli Trials"/>
+<img src="assets/figures/msu_2019_longest_runs.svg" width="100%" alt="Analyzing the Length of a Success Series in Bernoulli Trials"/>
 
 How long is the longest streak of heads in n coin flips? The work derives exact and recursive formulas for its distribution, shows that it grows like log n with bounded spread, and checks the double-exponential approximation against simulations. [PDF](papers/2019_longest_runs_bernoulli.pdf)
 
@@ -104,7 +107,7 @@ How long is the longest streak of heads in n coin flips? The work derives exact 
 <details>
 <summary><b>Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials</b> · 2020 · <i>Excellent</i></summary>
 
-<img src="assets/figures/2020_generating_function.svg" width="100%" alt="Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials"/>
+<img src="assets/figures/msu_2020_generating_function.svg" width="100%" alt="Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials"/>
 
 The same problem through generating functions: conditioning on the last zero gives a linear recurrence, the recurrence gives a rational generating function, and its poles give an explicit formula F(n, k) = A rⁿ + Σ Bⱼ aⱼⁿ for the distribution of the longest run. [PDF](papers/2020_limiting_behavior_bernoulli_runs.pdf)
 
@@ -113,7 +116,7 @@ The same problem through generating functions: conditioning on the last zero giv
 <details>
 <summary><b>Estimating the Largest Common Fragment in RLE Sequences</b> · 2021 · <i>Good</i></summary>
 
-<img src="assets/figures/2021_rle_common_fragment.svg" width="100%" alt="Estimating the Largest Common Fragment in RLE Sequences"/>
+<img src="assets/figures/msu_2021_rle_common_fragment.svg" width="100%" alt="Estimating the Largest Common Fragment in RLE Sequences"/>
 
 Two random sequences are compressed with run-length encoding. How long is the longest block of runs they share? For processes with countable support and strong exponential mixing it grows like 2 log n / H₂, where H₂ is the order-2 Rényi entropy rate of the encoded process. [PDF](papers/2021_rle_common_fragment.pdf)
 
@@ -122,7 +125,7 @@ Two random sequences are compressed with run-length encoding. How long is the lo
 <details>
 <summary><b>Statistical Evaluation of Conditional Mutual Information by Neural Networks</b> · 2022, specialist thesis · <i>Excellent</i></summary>
 
-<img src="assets/figures/2022_neural_cmi.svg" width="100%" alt="Statistical Evaluation of Conditional Mutual Information by Neural Networks"/>
+<img src="assets/figures/msu_2022_neural_cmi.svg" width="100%" alt="Statistical Evaluation of Conditional Mutual Information by Neural Networks"/>
 
 Classifier-based neural estimators of conditional mutual information (LDR, DV, NWJ). The thesis proves their $L^2$-consistency and asymptotic unbiasedness, and shows in simulations that on heavy-tailed (Cauchy) data their error stops decreasing. [PDF](papers/2022_neural_cmi_estimators_thesis.pdf)
 
