@@ -6,21 +6,40 @@
 </p>
 
 <p align="center">
-  <a href="https://scholar.google.lu/citations?user=_oB9VgIAAAAJ&hl=en">Google Scholar</a>
-  ·
-  <a href="https://www.linkedin.com/in/timur-mudarisov-a675a01b4/">LinkedIn</a>
-  ·
-  <a href="https://orcid.org/0009-0006-4152-2544">ORCID</a>
+  <a href="https://scholar.google.lu/citations?user=_oB9VgIAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-publications-1d4e6e?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
+  <a href="https://www.linkedin.com/in/timur-mudarisov-a675a01b4/"><img src="https://img.shields.io/badge/LinkedIn-connect-1d4e6e?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://orcid.org/0009-0006-4152-2544"><img src="https://img.shields.io/badge/ORCID-0009--0006--4152--2544-1d4e6e?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"/></a>
+  <img src="https://img.shields.io/badge/based_in-Luxembourg-5b6773?style=flat-square" alt="Based in Luxembourg"/>
 </p>
 
 I study the mathematical and empirical structure of **Transformers and large language models**, with a focus on attention, hidden-state geometry, residual dynamics, model compression, and efficient inference. My background combines **machine learning, probability theory, economics, and quantitative research**.
 
-### Highlights
+## Publications
 
-- **NeurIPS 2026 — accepted:** *Predictive Geometry of Hidden Trajectories in Transformers*
-- **NeurIPS 2025:** *Limitations of Normalization in Attention Mechanism*
-- **ICNLSP 2025:** *Scalable Text Vectorization with Hyperdimensional Computing Through Selective Word Encoding*
-- **ACM ICAIF 2024:** *Cross-Sector Market Regime Forecasting with LLM-Augmented News Analysis*
+| Venue | Paper |
+|:--|:--|
+| ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-7b2d3b?style=flat-square) | [**Predictive Geometry of Hidden Trajectories in Transformers**](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers) · *accepted* |
+| ![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025-7b2d3b?style=flat-square) | **Limitations of Normalization in Attention Mechanism** |
+| ![ICNLSP 2025](https://img.shields.io/badge/ICNLSP-2025-2d5a4a?style=flat-square) | Scalable Text Vectorization with Hyperdimensional Computing Through Selective Word Encoding |
+| ![ACM ICAIF 2024](https://img.shields.io/badge/ACM_ICAIF-2024-8a6a12?style=flat-square) | Cross-Sector Market Regime Forecasting with LLM-Augmented News Analysis |
+
+## Featured research
+
+<table>
+<tr>
+<td>
+
+### [Predictive Geometry of Hidden Trajectories in Transformers](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers)
+
+<sub>NeurIPS 2026</sub>
+
+Which directions in a Transformer's hidden states actually matter for its predictions? This work characterises prediction-relevant hidden-state geometry through Fisher-based sensitivity, and uses it for compression, pruning, and distillation.
+
+<a href="https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers"><img src="https://img.shields.io/badge/code-repository-1d4e6e?style=flat-square&logo=github" alt="Code"/></a>
+
+</td>
+</tr>
+</table>
 
 ## Education & academic path
 
@@ -36,7 +55,7 @@ My PhD studies Transformers as high-dimensional compositional operator systems, 
 </td>
 </tr>
 <tr>
-<td width="72" align="center"><img src="assets/education/nes.svg" width="50" alt="New Economic School"/><br/><img src="assets/education/ysda.svg" width="50" alt="Yandex School of Data Analysis"/></td>
+<td width="72" align="center"><img src="assets/education/nes.svg" width="50" alt="New Economic School"/><br/><br/><img src="assets/education/ysda.svg" width="50" alt="Yandex School of Data Analysis"/></td>
 <td>
 <strong>New Economic School + Yandex School of Data Analysis</strong><br/>
 <sub>Economics & Data Science · 2020–2022 · Moscow</sub><br/><br/>
@@ -57,40 +76,25 @@ My academic supervisor was <a href="https://new.math.msu.su/department/probab/st
 
 ### Selected undergraduate research at MSU
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<img src="assets/research/bernoulli_longest_run.svg" width="100%" alt="Longest runs in Bernoulli trials"/>
+<img src="assets/research/bernoulli_longest_run.svg" width="100%" alt="Longest runs in Bernoulli trials: distribution and logarithmic growth"/>
 
-**Analyzing the Length of a Success Series in Bernoulli Trials** · 2019 · **Excellent**  
-Studied the distribution and asymptotic behaviour of the longest run in Bernoulli trials, including exact / recursive formulas and Python simulations.  
-[PDF](papers/2019_longest_runs_bernoulli.pdf)
-</td>
-<td width="50%" valign="top">
-<img src="assets/research/bernoulli_limit_behavior.svg" width="100%" alt="Limiting behaviour of Bernoulli success runs"/>
+**Analyzing the Length of a Success Series in Bernoulli trials** · 2019 · **Excellent** · [PDF](papers/2019_longest_runs_bernoulli.pdf)  
+Distribution and asymptotic behaviour of the longest run in Bernoulli trials: exact and recursive formulas, the double-exponential approximation, and Python simulations.
 
-**Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials** · 2020 · **Excellent**  
-Developed a generating-function approach to the same family of extreme-run problems, using roots of the generating function and explicit distributional analysis to study limiting behaviour.  
-[PDF](papers/2020_limiting_behavior_bernoulli_runs.pdf)
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<img src="assets/research/rle_common_substring.svg" width="100%" alt="RLE common fragment research"/>
+<img src="assets/research/bernoulli_limit_behavior.svg" width="100%" alt="Generating-function poles and the dominant-pole approximation"/>
 
-**Estimating the Largest Common Fragment in RLE Sequences** · 2021 · **Good**  
-Studied asymptotics of the longest common substring after Run-Length Encoding for stochastic processes with countable support, connecting the limit to order-2 Rényi entropy under strong exponential mixing.  
-[PDF](papers/2021_rle_common_fragment.pdf)
-</td>
-<td width="50%" valign="top">
-<img src="assets/research/cmi_neural_estimators.svg" width="100%" alt="Neural conditional mutual information estimation"/>
+**Analyzing the Limiting Behaviour of a Success Series in Bernoulli Trials** · 2020 · **Excellent** · [PDF](papers/2020_limiting_behavior_bernoulli_runs.pdf)  
+A generating-function approach to the same extreme-run problem: the roots of the denominator give an explicit form of the distribution function and its limiting behaviour.
 
-**Statistical Evaluation of Conditional Mutual Information by Neural Networks** · Specialist thesis · 2022 · **Excellent**  
-Studied classifier-based neural estimators of conditional mutual information, with emphasis on asymptotic normality, \(L^2\)-consistency, and numerical stress tests on heavy-tailed distributions.  
-[PDF](papers/2022_neural_cmi_estimators_thesis.pdf)
-</td>
-</tr>
-</table>
+<img src="assets/research/rle_common_substring.svg" width="100%" alt="Longest common substring after run-length encoding"/>
+
+**Estimating the Largest Common Fragment in RLE Sequences** · 2021 · **Good** · [PDF](papers/2021_rle_common_fragment.pdf)  
+Asymptotics of the longest common substring after run-length encoding for processes with countable support, connecting the growth rate to the order-2 Rényi entropy under strong exponential mixing.
+
+<img src="assets/research/cmi_neural_estimators.svg" width="100%" alt="Neural estimators of conditional mutual information"/>
+
+**Statistical Evaluation of Conditional Mutual Information by Neural Networks** · Specialist thesis · 2022 · **Excellent** · [PDF](papers/2022_neural_cmi_estimators_thesis.pdf)  
+Classifier-based neural estimators of conditional mutual information: $L^2$-consistency, asymptotic unbiasedness, and stress tests on heavy-tailed distributions.
 
 ### NES + YSDA capstone: reinforcement learning for market making
 
@@ -106,20 +110,18 @@ The final project explored **inventory-aware market making in cryptocurrency mar
 </p>
 
 
-## Selected experience
+## Experience
 
-**Raiffeisen Bank** — Model Validation / Machine Learning · 2022–2024  
-**WorldQuant** — Quantitative Research Intern · 2021
+| | Role | Period |
+|:--|:--|:--|
+| **Raiffeisen Bank** | Model Validation / Machine Learning | 2022–2024 |
+| **WorldQuant** | Quantitative Research Intern | 2021 |
 
-## Featured research
+## Open to
 
-[**Predictive Geometry of Hidden Trajectories in Transformers**](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers)
+`Research Scientist` `Applied Scientist` `Research Engineer` `Quant ML Research`
 
-NeurIPS 2026 work on prediction-relevant hidden-state geometry, Fisher-based sensitivity, compression, pruning, and distillation.
-
-## Current interests
-
-`Applied Scientist` · `Research Scientist` · `Research Engineer` · `Quant ML Research`
+Happy to talk about Transformer theory, efficient inference, and ML in finance. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/timur-mudarisov-a675a01b4/).
 
 <p align="center">
   <sub>Luxembourg · Transformers · LLMs · Statistical Learning · Quantitative ML</sub>
