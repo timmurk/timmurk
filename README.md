@@ -9,6 +9,7 @@
   <a href="https://scholar.google.lu/citations?user=_oB9VgIAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-publications-1d4e6e?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
   <a href="https://www.linkedin.com/in/timur-mudarisov-a675a01b4/"><img src="https://img.shields.io/badge/LinkedIn-connect-1d4e6e?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://orcid.org/0009-0006-4152-2544"><img src="https://img.shields.io/badge/ORCID-0009--0006--4152--2544-1d4e6e?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"/></a>
+  <a href="mailto:timur.mudarisov@uni.lu"><img src="https://img.shields.io/badge/Email-timur.mudarisov%40uni.lu-1d4e6e?style=flat-square" alt="Email"/></a>
   <img src="https://img.shields.io/badge/based_in-Luxembourg-5b6773?style=flat-square" alt="Based in Luxembourg"/>
 </p>
 
@@ -24,7 +25,7 @@ I study the mathematical and empirical structure of **Transformers and large lan
 <img src="assets/papers/fig_2026_predictive_geometry.png" width="100%" alt="Predictive Geometry of Hidden Trajectories in Transformers"/>
 <sub><i>Figure 1 from the paper: a hidden-state trajectory with layerwise low-loss sets (top), the local pullback geometry around a low-loss point (bottom left), and prediction-null leaves with the observable quotient (bottom right).</i></sub>
 
-A decoder-only transformer is trained only through its final next-token loss, yet that loss constrains every intermediate hidden state. Around trajectories where the model already predicts well, the local curvature of the loss-to-go is a pullback Fisher operator: it splits hidden space into a few output-sensitive directions and many almost prediction-null ones, and gives a tokenwise sensitivity score. Across 1B–9B LLMs this geometry predicts perturbation sensitivity, guides layerwise rank allocation and token pruning, and improves low-rank student distillation on top of reverse and skew KL. [Code](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers)
+A decoder-only transformer is trained only through its final next-token loss, yet that loss constrains every intermediate hidden state. Around trajectories where the model already predicts well, the local curvature of the loss-to-go is a pullback Fisher operator: it splits hidden space into a few output-sensitive directions and many almost prediction-null ones, and gives a tokenwise sensitivity score. Across 1B–9B LLMs this geometry predicts perturbation sensitivity, guides layerwise rank allocation and token pruning, and improves low-rank student distillation on top of reverse and skew KL. [Results & supplement](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers)
 
 </details>
 
@@ -58,6 +59,41 @@ Can financial news predict the next market regime? Regimes of the S&P 500 are la
 
 </details>
 
+## Experience
+
+**University of Luxembourg, SnT (SEDAN group)** · Doctoral Researcher · Mar 2024 – present · Luxembourg
+- Research on LLMs, attention mechanisms, NLP and ML for quantitative finance, published at NeurIPS 2025, NeurIPS 2026, ICNLSP and ACM ICAIF.
+- Reproducible PyTorch / Hugging Face pipelines for transformer analysis, perturbation studies, low-rank compression, structured pruning and knowledge distillation across 1B–9B decoder-only LLMs.
+- Matrix-free diagnostics with Jacobian-vector / vector-Jacobian products, finite differences and Fisher / Hessian approximations to measure output sensitivity, effective rank and prediction-relevant hidden directions.
+
+**Raiffeisen Bank** · Model Validation / Machine Learning · Sep 2022 – Jan 2024 · Moscow
+- Validated financial models, including rates and mortgage models: assumptions, predictive stability and out-of-sample evidence.
+- Applied machine learning to time-series forecasting.
+
+**New Economic School** · Teaching Assistant · Mar 2022 – May 2022 · Moscow
+- Taught modern machine-learning methods.
+
+**WorldQuant** · Quantitative Researcher Intern · Sep 2021 – Dec 2021 · Moscow
+- Developed and evaluated return-prediction hypotheses with statistical validation and out-of-sample model comparison.
+
+## Skills
+
+| | |
+|:--|:--|
+| **Programming** | Python, C, C++ |
+| **Machine learning** | LLMs, Transformers, attention, NLP, model compression and distillation, time-series forecasting, quantitative ML, statistics |
+| **Libraries** | PyTorch, Hugging Face Transformers |
+| **Research engineering** | Reproducible experiments, ablations, statistical validation, JVP / VJP and finite-difference diagnostics, GPU-based LLM analysis, Git |
+| **Languages** | English (B2), French (A2), German (A1) |
+
+## Projects
+
+| Project | What it is |
+|:--|:--|
+| [**Predictive Geometry: experimental supplement**](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers) | Additional results for LLaMA-2-7B and Mistral-7B on OpenWebText: layerwise Fisher / Hessian comparisons, effective rank, finite differences, future-leakage analysis |
+| [**Utility-based market making**](https://github.com/timmurk/Utility-based-market-making) | Market-making environment with utility-based rewards, an Avellaneda–Stoikov baseline and a DQN agent |
+| [**Limit order book dynamics**](https://github.com/timmurk/Limit-order-book-dynamics) | Notebook implementation of limit-order-book models and optimal trading strategies |
+
 ## Education & academic path
 
 My training started in **probability theory and mathematical statistics**, then expanded into **economics, machine learning, reinforcement learning, and quantitative finance**, and eventually into my current work on the mathematical structure of Transformers.
@@ -67,7 +103,8 @@ My training started in **probability theory and mathematical statistics**, then 
 <td width="80" align="center"><img src="assets/logos/unilu.png" width="64" alt="University of Luxembourg"/></td>
 <td>
 <strong>University of Luxembourg — SnT</strong><br/>
-<sub>Doctoral Researcher / PhD · 2024–present · Luxembourg</sub><br/><br/>
+<sub>PhD candidate, Doctoral School in Science and Engineering · Mar 2024 – expected Mar 2027 · Luxembourg</sub><br/><br/>
+<strong>Thesis:</strong> <i>A Geometric and Operator-Theoretic Framework for Transformer Mechanism</i>.<br/>
 My PhD studies Transformers as high-dimensional compositional operator systems, focusing on attention geometry, residual-stream dynamics, hidden-state trajectories, and prediction-relevant directions. This work has led to papers at <strong>NeurIPS 2025</strong> and <strong>NeurIPS 2026</strong>.
 </td>
 </tr>
@@ -75,7 +112,7 @@ My PhD studies Transformers as high-dimensional compositional operator systems, 
 <td width="80" align="center"><img src="assets/logos/nes.png" width="56" alt="New Economic School"/><br/><br/><img src="assets/logos/ysda.png" width="56" alt="Yandex School of Data Analysis"/></td>
 <td>
 <strong>New Economic School + Yandex School of Data Analysis</strong><br/>
-<sub>Economics & Data Science · 2020–2022 · Moscow</sub><br/><br/>
+<sub>Master in Economics and Data Science · Sep 2020 – Jul 2022 · Moscow</sub><br/><br/>
 A joint program combining graduate-level economics with a rigorous data-science curriculum. <strong>NES GPA: 4.2/5.0.</strong> At YSDA, I received <strong>Excellent</strong> grades in Python, Fundamentals of Statistics for ML, Machine Learning I, Functional Analysis, and Reinforcement Learning.<br/><br/>
 <strong>Capstone:</strong> <a href="https://github.com/timmurk/Utility-based-market-making">Utility-based approach for HFT market making</a> — a market-making environment with utility-based rewards, an Avellaneda–Stoikov baseline, and a DQN-style reinforcement-learning agent for inventory-aware quoting.
 </td>
@@ -84,7 +121,7 @@ A joint program combining graduate-level economics with a rigorous data-science 
 <td width="80" align="center"><img src="assets/logos/msu.png" width="64" alt="Moscow State University"/></td>
 <td>
 <strong>Lomonosov Moscow State University — Faculty of Mechanics and Mathematics</strong><br/>
-<sub>Specialist degree · Department of Probability Theory · 2016–2022 · Moscow</sub><br/><br/>
+<sub>Specialist degree · Department of Probability Theory · Sep 2016 – Jul 2022 · Moscow</sub><br/><br/>
 Six-year mathematical training with a focus on probability, stochastic processes, mathematical statistics, time series, stochastic calculus in finance, and machine learning. <strong>GPA: 4.5/5.0.</strong> My specialist thesis was graded <strong>Excellent</strong>.<br/><br/>
 My academic supervisor was <a href="https://new.math.msu.su/department/probab/staff/bulinsk.html"><strong>Prof. Alexander V. Bulinski</strong></a>, a probability theorist and a student of <strong>A. N. Kolmogorov</strong>. Under his supervision, I worked on a sequence of research projects moving from classical probability and asymptotics toward information theory and neural estimation.
 </td>
@@ -144,20 +181,12 @@ The final project explored **inventory-aware market making in cryptocurrency mar
   <a href="https://github.com/timmurk/Utility-based-market-making"><strong>Code and project repository →</strong></a>
 </p>
 
-
-## Experience
-
-| | Role | Period |
-|:--|:--|:--|
-| **Raiffeisen Bank** | Model Validation / Machine Learning | 2022–2024 |
-| **WorldQuant** | Quantitative Research Intern | 2021 |
-
 ## Open to
 
-`Research Scientist` `Applied Scientist` `Research Engineer` `Quant ML Research`
+`Applied Scientist` `Research Engineer` `Quantitative Researcher / Analyst` `ML / RL Researcher`
 
-Happy to talk about Transformer theory, efficient inference, and ML in finance. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/timur-mudarisov-a675a01b4/).
+Happy to talk about LLMs and Transformer analysis, efficient inference, reinforcement learning and ML in finance. Reach me at [timur.mudarisov@uni.lu](mailto:timur.mudarisov@uni.lu) or on [LinkedIn](https://www.linkedin.com/in/timur-mudarisov-a675a01b4/).
 
 <p align="center">
-  <sub>Luxembourg · Transformers · LLMs · Statistical Learning · Quantitative ML</sub>
+  <sub>Luxembourg · LLMs · Transformers · Statistical Learning · Quantitative ML</sub>
 </p>
