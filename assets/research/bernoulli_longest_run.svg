@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320" role="img" aria-label="Longest run in Bernoulli trials">
+<style>
+  .bg{fill:#f6f7f9;stroke:#d8dde3}
+  .ink{fill:#1f2a33}.mut{fill:#5b6773}.ax{stroke:#8a96a3}
+  .grid{stroke:#e3e7eb}
+  .blue{fill:#1d4e6e}.blueS{stroke:#1d4e6e}
+  .ochre{fill:#b8860b}.ochreS{stroke:#b8860b}
+  .wine{fill:#7b2d3b}.wineS{stroke:#7b2d3b}
+  .green{fill:#2d5a4a}.greenS{stroke:#2d5a4a}
+  .soft{fill:#dbe6ee}.hole{fill:#f6f7f9;stroke:#9aa7b3}
+  text{font-family:Georgia, 'Times New Roman', 'DejaVu Serif', serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#161b22;stroke:#30363d}
+    .ink{fill:#e6edf3}.mut{fill:#9aa7b3}.ax{stroke:#6e7b88}
+    .grid{stroke:#262d36}
+    .blue{fill:#6fa8d1}.blueS{stroke:#6fa8d1}
+    .ochre{fill:#e0b54a}.ochreS{stroke:#e0b54a}
+    .wine{fill:#d98a98}.wineS{stroke:#d98a98}
+    .green{fill:#7fbfa6}.greenS{stroke:#7fbfa6}
+    .soft{fill:#23384a}.hole{fill:#161b22;stroke:#56626e}
+  }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="639" height="319" rx="14"/>
+<text class="ink" x="32" y="42" font-size="17">Longest success run</text>
+<text class="mut" x="32" y="62" font-size="12.5" font-style="italic">36 fair coin flips, one sample path</text>
+<rect class="soft" x="109.0" y="81" width="99.6" height="22.6" rx="5"/>
+<rect class="hole" x="34.6" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="50.4" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="66.2" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="82.0" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="97.8" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="ochre" x="113.0" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="ochre" x="128.8" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="ochre" x="144.6" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="ochre" x="160.4" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="ochre" x="176.2" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="ochre" x="192.0" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="hole" x="208.4" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="blue" x="223.6" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="hole" x="240.0" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="blue" x="255.2" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="hole" x="271.6" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="blue" x="286.8" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="blue" x="302.6" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="hole" x="319.0" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="334.8" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="350.6" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="366.4" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="382.2" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="blue" x="397.4" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="hole" x="413.8" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="blue" x="429.0" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="hole" x="445.4" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="461.2" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="477.0" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="blue" x="492.2" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="blue" x="508.0" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="blue" x="523.8" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="blue" x="539.6" y="86" width="12.6" height="12.6" rx="2.5"/>
+<rect class="hole" x="556.0" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="hole" x="571.8" y="86.6" width="11.4" height="11.4" rx="2.5" stroke-width="1.2"/>
+<rect class="blue" x="587.0" y="86" width="12.6" height="12.6" rx="2.5"/>
+<path class="ochreS" d="M113.0 110.6 v5 H204.6 v-5" fill="none" stroke-width="1.5"/>
+<text class="ink" x="158.8" y="132.6" font-size="13" text-anchor="middle" font-style="italic">R = 6</text>
+<line class="ax" x1="60" y1="290" x2="600" y2="290" stroke-width="1"/>
+<rect class="blue" x="66.0" y="289.6" width="29.5" height="0.4" rx="2" opacity="0.85"/>
+<text class="mut" x="80.8" y="305" font-size="11" text-anchor="middle">3</text>
+<rect class="blue" x="107.5" y="274.6" width="29.5" height="15.4" rx="2" opacity="0.85"/>
+<rect class="blue" x="149.1" y="213.9" width="29.5" height="76.1" rx="2" opacity="0.85"/>
+<text class="mut" x="163.8" y="305" font-size="11" text-anchor="middle">5</text>
+<rect class="blue" x="190.6" y="170.0" width="29.5" height="120.0" rx="2" opacity="0.85"/>
+<rect class="blue" x="232.2" y="185.4" width="29.5" height="104.6" rx="2" opacity="0.85"/>
+<text class="mut" x="246.9" y="305" font-size="11" text-anchor="middle">7</text>
+<rect class="blue" x="273.7" y="219.0" width="29.5" height="71.0" rx="2" opacity="0.85"/>
+<rect class="blue" x="315.2" y="252.1" width="29.5" height="37.9" rx="2" opacity="0.85"/>
+<text class="mut" x="330.0" y="305" font-size="11" text-anchor="middle">9</text>
+<rect class="blue" x="356.8" y="267.9" width="29.5" height="22.1" rx="2" opacity="0.85"/>
+<rect class="blue" x="398.3" y="278.8" width="29.5" height="11.2" rx="2" opacity="0.85"/>
+<text class="mut" x="413.1" y="305" font-size="11" text-anchor="middle">11</text>
+<rect class="blue" x="439.8" y="284.8" width="29.5" height="5.2" rx="2" opacity="0.85"/>
+<rect class="blue" x="481.4" y="287.1" width="29.5" height="2.9" rx="2" opacity="0.85"/>
+<text class="mut" x="496.2" y="305" font-size="11" text-anchor="middle">13</text>
+<rect class="blue" x="522.9" y="288.5" width="29.5" height="1.5" rx="2" opacity="0.85"/>
+<rect class="blue" x="564.5" y="289.3" width="29.5" height="0.7" rx="2" opacity="0.85"/>
+<text class="mut" x="579.2" y="305" font-size="11" text-anchor="middle">15</text>
+<line class="wineS" x1="232.1" y1="162" x2="232.1" y2="290" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text class="wine" x="240.1" y="172" font-size="12.5" font-style="italic">log₂(n/2) ≈ 6.6</text>
+<text class="mut" x="600" y="172" font-size="12" text-anchor="end">distribution of R, n = 200</text>
+</svg>
