@@ -91,9 +91,11 @@ Can financial news predict the next market regime? Regimes of the S&P 500 are la
 
 | Project | What it is |
 |:--|:--|
-| [**Predictive Geometry: experimental supplement**](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers) | Additional results for LLaMA-2-7B and Mistral-7B on OpenWebText: layerwise Fisher / Hessian comparisons, effective rank, finite differences, future-leakage analysis |
+| [**Predictive Geometry: experimental supplement**](https://github.com/timmurk/Predictive-Geometry-of-Hidden-Trajectories-in-Transformers) | Repository of the NeurIPS256 paper |
+| [**Limitations of Normalization in Attention Mechanism**](https://github.com/timmurk/Limitations-of-normalization-in-attention-mechanism) | Repository of the NeurIPS25 paper |
 | [**Utility-based market making**](https://github.com/timmurk/Utility-based-market-making) | Market-making environment with utility-based rewards, an Avellaneda–Stoikov baseline and a DQN agent |
 | [**Limit order book dynamics**](https://github.com/timmurk/Limit-order-book-dynamics) | Notebook implementation of limit-order-book models and optimal trading strategies |
+| [**Zoo-Escape game**](https://github.com/timmurk/Zoo-Escape-Game) | A small C++ written game from scratch|
 
 ## Education & academic path
 
