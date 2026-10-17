@@ -81,11 +81,14 @@ Can financial news predict the next market regime? Regimes of the S&P 500 are la
 
 | | |
 |:--|:--|
-| **Programming** | Python, C, C++ |
+| **Programming** | Python, C, C++, Bash, SQL |
 | **Machine learning** | LLMs, Transformers, attention, NLP, model compression and distillation, time-series forecasting, quantitative ML, statistics |
-| **Libraries** | PyTorch, Hugging Face Transformers |
-| **Research engineering** | Reproducible experiments, ablations, statistical validation, JVP / VJP and finite-difference diagnostics, GPU-based LLM analysis, Git |
-| **Languages** | English (B2), French (A2), German (A1) |
+| **DL frameworks** | PyTorch, JAX/Flax, Hugging Face (Transformers, Datasets, Accelerate, PEFT) |
+| **LLM training & inference** | DeepSpeed, PyTorch FSDP, vLLM, CUDA, Triton |
+| **Scientific computing** | NumPy, SciPy, pandas, scikit-learn, Matplotlib |
+| **Research engineering** | Reproducible experiments, statistical validation, ML diagnostics, GPU-based LLM analysis |
+| **Infrastructure & tools** | Git, Docker, Slurm, Weights & Biases, Linux, LaTeX |
+| **Languages** | English (C1), French (A2), German (A1) |
 
 ## Projects
 
